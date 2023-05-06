@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@font-face {
+    font-family: 'AvertaStd-Regular';
+    src: url('/AvertaStd-Regular.otf') format('opentype');
+}
+
+body{
+font-family: 'AvertaStd-Regular', Arial, sans-serif!important;
+}
+
+#newlayout{
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    color: #4D4D4D;
+    box-sizing: border-box;
+    position: relative;
+    margin-left:0px;
+}
+#newlayout .tab {
+    width: 220px;
+    margin-left:185px;
+    bottom: 0;
+    z-index: 1;
+    box-sizing:initial;
+    max-height:     max-content;
+    border-radius:  10px;
+}
+
+
+#newlayout .tab .item2 {
+    color: #FFA800;
+    border-bottom: 2px solid #C0D4E8;
+    margin-left:25px;
+    margin-right:10px;
+    padding-top: 5px;
+    padding-bottom: 13px;
+}
+
+#newlayout .tab .item2 img{
+    height:     18px;
+    width:  18px;
+    margin:0 auto 4px;
+}
+
+#newlayout .tab .league .item img{
+    height:     18px;
+    width:  18px;
+    margin:0 auto 4px;
+}
+
+    #newlayout div {
+        max-height: 999999px;
+    }
+    #desktopsport.sport {
+        margin-top:150px;
+        background: #4B6D91;
+        height:100%;
+        width: 220px;
+    }
+    #desktopsport.sport .item{
+        width: 180px;
+        height: 34px;
+        margin-left:24px;
+        margin-right:24px;
+        margin-bottom: 24px;
+        padding-top: 6px; 
+        border-radius: 6px;
+        background: #ffffff;
+        font-size: 15px;
+        color: #252946;
+        cursor: pointer;
+    }
+    #desktopsport.sport .item2{
+        width: 180px;
+        height: 34px;
+        margin-left:24px;
+        margin-right:24px;
+        margin-bottom: 24px;
+        padding-top: 6px;
+        background: #ffffff;
+        font-size: 15px;
+        color: #FFA800;
+        border-bottom:  2px solid #C0D4E8;
+    }
+    #desktopsport.sport .item.select, #desktopsport.sport .item:hover {
+        font-weight: bold;
+    }
+    #desktopsport.sport .item img, #desktopsport.sport .item2 img  {
+        height: 18px;
+        width: 18px;
+        margin: 0 auto 4px;
+    }
+    #mobilesport.sport {
+        background: #2C304D;
+        height:70px;
+        width:100%;
+    }
+    #mobilesport.sport .item {
+        width: 50px;
+        float:left;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        padding-top: 10px;
+    }
+    #mobilesport.sport .item.select, #mobilesport.sport .item:hover {
+        font-weight: bold;
+        font-size:  12px;
+        color: #00C8C8;
+        border-bottom: 2px solid #00C8C8;
+}
+    }
+    #mobilesport.sport .item img {
+    height: 18px;
+    width: 18px;
+    }
+    #newlayout .tab .league {
+        width: 220px;
+        background: #fff;
+        border-radius:10px;
+        height:max-content;
+    }
+    #newlayout .tab .league .item.select, .tab .league .item:hover {
+        font-weight: bold;
+    }
+    #newlayout .tab .league .item {
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: #000;
+        cursor: pointer;
+        border-bottom: 1px dotted #DCDCDC;
+            1
+    }
+    #desktopmatchCon.matchCon {
+        min-height: 100%;
+        padding: 0px 40px 0px 310px;
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+        min-height: 600px;
+    }
+    #desktopmatchCon.matchBox {
+        margin: 0 -10px;
+        font-size:0;
+        line-height:0;
+        color:white;
+    }
+
+
+    #desktopmatchCon.liveBox {
+        margin: 0 -10px;
+        font-size:0;
+        line-height:0;
+        color:white;
+    }
+
+    #desktopmatchCon.liveBox2 {
+        margin: 0 -10px;
+        font-size:0;
+        line-height:0;
+        color:white;
+    }
+
+    #mobilematchCon.matchCon {
+        margin-top:165px;
+    }
+    #mobilematchCon.matchBox .item {
+        height: 220px;
+           }
+
+        #mobilematchCon .matchBox .item .inner {
+        height: 220px;
+    }
+
+    #mobilematchCon .loadingdiv{
+        margin-top:165px;
+    }
+    #newlayout .date {
+        margin-top: 15px;
+        font-size: 0;
+        line-height: 0;
+        float:left;
+        margin-right:10px;
+        cursor:pointer;
+        background: #006464;
+        border-radius: 17px;
+    }
+    #newlayout .date p {
+        height: 34px;
+        padding: 0 12px 0 35px;
+        background: transparent;
+        font-size: 12px;
+        line-height: 34px;
+        color: #C0D4E8;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+        border-radius: 17px;
+    }
+
+    #newlayout .date p span {
+        margin-left: 6px;
+        font-size: 12px;
+    }
+    #newlayout .date p img {
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        position: absolute;
+        top: 50%;
+        left: 10px;
+    }
+    #newlayout .matchBox .item {
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #newlayout .matchBox2 .item {
+        height: auto;
+        margin-top: 20px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #newlayout .liveBox .item {
+        height: auto;
+        padding-left: 10px;
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 10px;
+    }
+    #newlayout .liveBox2 .item {
+        height: auto;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        display: inline-block;
+        vertical-align: top;
+
+    }
+
+    #newlayout .matchBox .item .inner {
+        height: auto;
+        margin: 0 10px;
+        border-radius: 6px;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 3%);
+        position: relative;
+        cursor: pointer;
+    }
+    #newlayout .matchBox2 .item .inner {
+        height: auto;
+        margin: 0 10px;
+        border-radius: 6px;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 3%);
+        position: relative;
+        cursor: pointer;
+    }
+    #newlayout .liveBox .item .inner {
+        height: auto;
+        margin: 0 10px;
+        border-radius: 6px;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 3%);
+        position: relative;
+        cursor: pointer;
+    }
+    #newlayout .liveBox2 .item .inner {
+        height: auto;
+        margin: 0 10px;
+        border-radius: 6px;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 3%);
+        position: relative;
+        cursor: pointer;
+    }
+    #newlayout .matchBox .item[sport=basketball] .info {
+        color: #CD5E1E;
+    }
+    #newlayout .matchBox .item .info {
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #4D4D4D;
+        font-weight: bold;
+        padding: 5px 10px 0 10px;
+        display: inline ;
+    }
+    #newlayout .matchBox .item .match {
+        height: auto;
+        width: auto;
+        margin-top: -25px;
+        font-size: 0;
+        line-height: 0;
+    }
+    #newlayout .matchBox .item .line {
+        padding: 0 4px 0 10px;
+        font-size: 0;
+        line-height: 0;
+        margin-top:35px;
+        overflow: hidden;
+}
+
+    #newlayout .matchBox2 .item[sport=basketball] .info {
+        color: #CD5E1E;
+    }
+    #newlayout .matchBox2 .item .info {
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #4D4D4D;
+        font-weight: bold;
+        padding: 5px 10px 0 10px;
+        display: inline ;
+    }
+    #newlayout .matchBox2 .item .match {
+        height: auto;
+        width: auto;
+        margin-top: -25px;
+        font-size: 0;
+        line-height: 0;
+    }
+    #newlayout .matchBox2 .item .line {
+        padding: 0 4px 0 10px;
+        font-size: 0;
+        line-height: 0;
+        height: 40px;
+        margin-top:35px;
+        overflow: hidden;
+}
+
+    #newlayout .liveBox .item[sport=basketball] .info {
+        color: #CD5E1E;
+    }
+    #newlayout .liveBox .item .info {
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #4D4D4D;
+        font-weight: bold;
+        padding: 5px 10px 0 10px;
+        display: inline ;
+    }
+    #newlayout .liveBox .item .match {
+        height: auto;
+        width: auto;
+        margin-top: -25px;
+        font-size: 0;
+        line-height: 0;
+    }
+    #newlayout .liveBox .item .line {
+        padding: 0 4px 0 10px;
+        font-size: 0;
+        line-height: 0;
+        margin-top:20;
+        overflow: hidden;
+}
+
+    #newlayout .liveBox2 .item[sport=basketball] .info {
+        color: #CD5E1E;
+    }
+    #newlayout .liveBox2 .item .info {
+        height: 22px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #4D4D4D;
+        font-weight: bold;
+        padding: 5px 10px 0 10px;
+        display: inline ;
+    }
+    #newlayout .liveBox2 .item .match {
+        height: auto;
+        width: auto;
+        margin-top: -25px;
+        font-size: 0;
+        line-height: 0;
+    }
+    #newlayout .liveBox2 .item .line {
+        padding: 0 4px 0 10px;
+        font-size: 0;
+        line-height: 0;
+        margin-top:20;
+        overflow: hidden;
+}
+    #newlayout .matchBox .item .score::after {
+        height: 24px;
+        padding-left: 22px;
+        background: url(/img/new/icon_match_nolive.png) no-repeat left center;
+        background-size: 20px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #ACACC2;
+        position: absolute;
+        left: 20%;
+        content: '未开始';
+    }
+    #newlayout .matchBox .item.live .score::after {
+    background: url(/img/new/icon_match_live.png) no-repeat left center;
+    background-size: 15px;
+    color: #EE1C62;
+    content: '直播中';
+}
+    #newlayout .matchBox .item .info img {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #newlayout .matchBox .item .match .team {
+        position: relative;
+        display: inline-block;
+    }
+    #newlayout .matchBox .item .match .score {
+        width: 104px;
+        margin-left: -52px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+    }
+    #newlayout .matchBox .item .match .team:first-child img {
+        margin-left: -47px;
+    }
+    #newlayout .matchBox .item .match .team:first-child p {
+    padding: 0 62px 0 10px;
+}
+    #newlayout .matchBox .item .match .team img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        position: absolute;
+        top: -10px;
+        object-fit: contain;
+    }
+    #newlayout .matchBox .item .inner .time {
+        margin-bottom: 6px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #E4ECF5;
+        font-weight: 100;
+        display: inline ;
+    }
+    #newlayout .matchBox .item .match .score .point {
+        height: 32px;
+        border-radius: 16px;
+        background: #F2F2F2;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #505180;
+        font-weight: bold;
+        overflow: hidden;
+        margin-top:0px!important;
+    }
+    #newlayout .matchBox .item .match .team:last-child img {
+        margin-left: 40px;
+    }
+    #newlayout .matchBox .item .match .team:last-child p {
+        padding: 0 10px 0 62px;
+    }
+    #newlayout .matchBox .item .match .team p {
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        color: #fff;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    #newlayout .matchBox .item .line p {
+        width: auto;
+        height: 34px;
+        display: inline-block;
+    }
+    #newlayout .matchBox .item .line a {
+        height: 32px;
+        margin: 0 6px 6px 0;
+        padding:5px 50px 5px 50px;
+        border: 1px solid #D7D7DC;
+        border-radius: 6px;
+        background: #FEFEFE;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        text-decoration:none!important;
+        color: #88889F;
+        overflow: hidden;
+    }
+    #newlayout .matchBox .item[sport=football] .info {
+        color: #3857AD;
+    }
+
+    #newlayout .matchBox .item .score::after {
+        height: 24px;
+        padding-left: 22px;
+        background: url(/img/new/icon_match_nolive.png) no-repeat left center;
+        background-size: 20px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #ACACC2;
+        position: absolute;
+        left: 20%;
+        content: '未开始';
+    }
+    #newlayout .matchBox2 .item.live .score::after {
+    background: url(/img/new/icon_match_live.png) no-repeat left center;
+    background-size: 15px;
+    color: #EE1C62;
+    content: '直播中';
+}
+    #newlayout .matchBox2 .item .info img {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #newlayout .matchBox2 .item .match .team {
+        position: relative;
+        display: inline-block;
+    }
+    #newlayout .matchBox2 .item .match .score {
+        width: 104px;
+        margin-left: -52px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+    }
+    #newlayout .matchBox2 .item .match .team:first-child img {
+        margin-left: -47px;
+    }
+    #newlayout .matchBox2 .item .match .team:first-child p {
+    padding: 0 62px 0 10px;
+}
+    #newlayout .matchBox2 .item .match .team img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        position: absolute;
+        object-fit: contain;
+    }
+    #newlayout .matchBox2 .item .inner .time {
+        margin-bottom: 6px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #7B7B7B;
+        font-weight: bold;
+        display: inline ;
+    }
+    #newlayout .matchBox2 .item .match .score .point {
+        height: 32px;
+        border-radius: 16px;
+        background: #F2F2F2;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        color: #505180;
+        font-weight: bold;
+        overflow: hidden;
+        margin-top:0px!important;
+    }
+    #newlayout .matchBox2 .item .match .team:last-child img {
+        margin-left: 40px;
+    }
+    #newlayout .matchBox2 .item .match .team:last-child p {
+        padding: 0 10px 0 62px;
+    }
+    #newlayout .matchBox2 .item .match .team p {
+        height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: right;
+        color: #4D4D4D;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    #newlayout .matchBox2 .item .line p {
+        width: auto;
+        height: 34px;
+        display: inline-block;
+    }
+    #newlayout .matchBox2 .item .line a {
+        height: 32px;
+        margin: 0 6px 6px 0;
+        padding:5px 0px 5px 0px;
+        border: 1px solid #D7D7DC;
+        border-radius: 6px;
+        background: #FEFEFE;
+        font-size: 12px;
+        line-height: 32px;
+        text-align: center;
+        text-decoration:none!important;
+        color: #88889F;
+        overflow: hidden;
+    }
+    #newlayout .matchBox2 .item[sport=football] .info {
+        color: #3857AD;
+    }
+
+        #newlayout .liveBox .item .score::after {
+        height: 24px;
+        padding-left: 22px;
+        background: url(/img/new/icon_match_nolive.png) no-repeat left center;
+        background-size: 20px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #ACACC2;
+        position: absolute;
+        left: 20%;
+        content: '未开始';
+    }
+    #newlayout .liveBox .item.live .score::after {
+    background: url(/img/new/icon_match_live.png) no-repeat left center;
+    background-size: 15px;
+    color: #EE1C62;
+    content: '直播中';
+}
+    #newlayout .liveBox .item .info img {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #newlayout .liveBox .item .match .team {
+        position: relative;
+        display: inline-block;
+    }
+    #newlayout .liveBox .item .match .score {
+        width: 104px;
+        margin-left: -52px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+    }
+    #newlayout .liveBox .item .match .team:first-child img {
+        margin-left: -47px;
+    }
+    #newlayout .liveBox .item .match .team:first-child p {
+    padding: 0 62px 0 10px;
+}
+    #newlayout .liveBox .item .match .team img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        position: absolute;
+        top: -10px;
+        object-fit: contain;
+    }
+    #newlayout .liveBox .item .inner .time {
+        margin-bottom: 6px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #7B7B7B;
+        font-weight: bold;
+        display: inline ;
+    }
+    #newlayout .liveBox .item .match .score .point {
+        height: 32px;
+        border-radius: 16px;
+        background: #F2F2F2;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #505180;
+        font-weight: bold;
+        overflow: hidden;
+        margin-top:0px!important;
+    }
+    #newlayout .liveBox .item .match .team:last-child img {
+        margin-left: 40px;
+    }
+    #newlayout .liveBox .item .match .team:last-child p {
+        padding: 0 10px 0 62px;
+    }
+    #newlayout .liveBox .item .match .team p {
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        color: #4D4D4D;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    #newlayout .liveBox .item .line p {
+        width: 20%;
+        height: 34px;
+        display: inline-block;
+    }
+    #newlayout .liveBox .item .line a {
+        height: 32px;
+        margin: 0 6px 6px 0;
+        padding:5px 50px 5px 50px;
+        border: 1px solid #D7D7DC;
+        border-radius: 6px;
+        background: #FEFEFE;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        text-decoration:none!important;
+        color: #88889F;
+        overflow: hidden;
+    }
+    #newlayout .liveBox .item[sport=football] .info {
+        color: #3857AD;
+    }
+
+        #newlayout .liveBox2 .item .score::after {
+        height: 24px;
+        padding-left: 22px;
+        background: url(/img/new/icon_match_nolive.png) no-repeat left center;
+        background-size: 20px;
+        font-size: 14px;
+        line-height: 28px;
+        color: #ACACC2;
+        position: absolute;
+        left: 20%;
+        content: '未开始';
+    }
+    #newlayout .liveBox2 .item.live .score::after {
+    background: url(/img/new/icon_match_live.png) no-repeat left center;
+    background-size: 15px;
+    color: #EE1C62;
+    content: '直播中';
+}
+    #newlayout .liveBox2 .item .info img {
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    #newlayout .liveBox2 .item .match .team {
+        position: relative;
+        display: inline-block;
+    }
+    #newlayout .liveBox2 .item .match .score {
+        width: 104px;
+        margin-left: -52px;
+        position: absolute;
+        top: 5px;
+        left: 50%;
+    }
+    #newlayout .liveBox2 .item .match .team:first-child img {
+        margin-left: -47px;
+    }
+    #newlayout .liveBox2 .item .match .team:first-child p {
+    padding: 0 62px 0 10px;
+}
+    #newlayout .liveBox2 .item .match .team img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+        position: absolute;
+        top: -10px;
+        object-fit: contain;
+    }
+    #newlayout .liveBox2 .item .inner .time {
+        margin-bottom: 6px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #7B7B7B;
+        font-weight: bold;
+        display: inline ;
+    }
+    #newlayout .liveBox2 .item .match .score .point {
+        height: 32px;
+        border-radius: 16px;
+        background: #F2F2F2;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #505180;
+        font-weight: bold;
+        overflow: hidden;
+        margin-top:0px!important;
+    }
+    #newlayout .liveBox2 .item .match .team:last-child img {
+        margin-left: 40px;
+    }
+    #newlayout .liveBox2 .item .match .team:last-child p {
+        padding: 0 10px 0 62px;
+    }
+    #newlayout .liveBox2 .item .match .team p {
+        height: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        color: #4D4D4D;
+        font-weight: bold;
+        overflow: hidden;
+    }
+    #newlayout .liveBox2 .item .line p {
+        width: 20%;
+        height: 34px;
+        display: inline-block;
+    }
+    #newlayout .liveBox2 .item .line a {
+        height: 32px;
+        margin: 0 6px 6px 0;
+        padding:5px 50px 5px 50px;
+        border: 1px solid #D7D7DC;
+        border-radius: 6px;
+        background: #FEFEFE;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        text-decoration:none!important;
+        color: #88889F;
+        overflow: hidden;
+    }
+    #newlayout .liveBox2 .item[sport=football] .info {
+        color: #3857AD;
+    }

@@ -1,0 +1,325 @@
+.imglogo1{
+	height: 40px;
+}
+/*page2*/
+.page2_card-body1 {
+	background-color: #e1e1e1 !important; 
+}
+.pagesbtn {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.slider {
+	padding-bottom: 20px;
+}
+
+ul.horizontal-list {
+list-style: none;
+padding-top: 10px;
+}
+
+ul.horizontal-list li {
+	display: inline;
+	padding-left: 20px;
+}
+
+.page2card2{
+	margin-top: 30px;
+}
+
+/*page3*/
+.page3p{
+	width: 140px;
+	font-size: 16px;
+}
+.page3button{
+	float:right ;
+	color: white !important;
+	background-color: #37428d !important;
+	margin-top: -60px !important;
+}
+.page3_card-body1 {
+	background-color: #e1e1e1 !important; 
+}
+.page3_picture_card{
+	background-color: white !important; 
+}
+.picture_card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 95%;
+}
+
+.picture_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.picture_container {
+  padding: 2px 16px;
+  padding-top: 10px;
+}
+
+.page3column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.page3row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 20px;
+}
+
+/*page4*/
+.page4_card-body {
+	background-color: #e1e1e1 !important; 
+}
+
+.page4p{
+	font-size: 16px;
+}
+
+.page4span{
+	width: 100px;
+}
+
+/*page 1*/
+.divOut {
+	margin-top: -23px;
+}
+
+.divButton {
+	background-color: white; 
+	padding: 20px;
+}
+
+.divCard {
+	height: 277.4px;
+}
+
+.sliderImg {
+	height: 277.4px; 
+	margin-left: -21px; 
+	margin-top: -20px;
+}
+
+.divCardHeader {
+	background-color: #e1e1e1; 
+	padding: 25px;
+}
+
+.pIP {
+	color: #161a41; 
+	font-size: 18px;
+}
+
+.h3IP {
+	color: #161a41; 
+	font-weight: bold;
+}
+
+.divRefresh {
+	float: right; 
+	margin-top: -50px;
+}
+
+.pRefresh {
+	color: #161a41; 
+	font-size: 18px;
+}
+
+.bRefresh {
+	font-size: 24px; 
+	margin-left: 10px;
+}
+
+.pHeading {
+	background-color: white; 
+	padding: 10px;
+}
+
+.divContent {
+	margin-top: -15px; 
+	background-color: #e1e1e1;
+}
+
+.divBox {
+	border: 1px solid #5a2ffa; 
+	border-radius: 10px; 
+	padding: 10px; 
+	background-color: #5a2ffa; 
+	height: 40px;
+}
+
+.divCache {
+	border: 1px solid #5a2ffa; 
+	border-radius: 15px; 
+	padding: 10px; 
+	background-color: #5a2ffa; 
+	height: 40px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.pBox {
+	color: #fff; 
+	text-align: center;
+}
+
+.spanLeft {
+	font-size: 14px; 
+	float: left;
+}
+
+.spanFont12 {
+	font-size: 12px;
+}
+
+.spanFont13 {
+	font-size: 13px;
+}
+
+.spanFont14 {
+	font-size: 14px;
+}
+
+.spanFont15 {
+	font-size: 15px;
+}
+
+.spanRight {
+	font-size: 12px; 
+	float: right; 
+	margin-top: -2px;
+}
+
+.divBoxApp {
+	border: 1px solid #fff; 
+	padding: 10px; 
+	background-color: #fff; 
+	height: 170px; 
+	margin: 0 auto;
+}
+
+.qrImg {
+	height: 150px; 
+	padding: 10px;
+}
+
+.spanApp {
+	float:right; 
+	margin-right: 50px;
+}
+
+.pApp {
+	padding: 10px;
+}
+
+.spanqrApp {
+	font-weight: bold; 
+	font-size: 24px;
+}
+
+.spanAppButton {
+	margin-top: 10px;
+}
+
+.spanHeading {
+	background-color: white; 
+	padding: 15px; 
+	color: #90919d; 
+	font-size: 16px;
+}
+
+
+/*page 6 */
+.page6divCardHeader {
+	background-color: #e1e1e1;
+}
+
+.page6divBody {
+	background-color: white; 
+	padding: 30px;
+}
+
+.page6Img1 {
+	height: 85px;
+}
+
+.page6Img2 {
+	height: 85px; 
+	margin-left: 20px;
+}
+
+.page6Img3 {
+	height: 85px; 
+	margin-left: 15px;
+}
+
+.page6Img4 {
+	height: 35px; 
+	margin-top: 50px;
+}
+
+.page6Img5 {
+	height: 85px; 
+	margin-left: 5px;
+}
+
+.page6Name {
+	margin-left: 20px;
+}
+
+.page6Name2 {
+	margin-left: 40px;
+}
+
+.page6Name3 {
+	margin-left: 35px;
+}
+
+.page6Name4 {
+	margin-left: 32px;
+}
+
+.page6Name5 {
+	margin-left: 25px;
+}
+
+.page6Name6 {
+	margin-left: 15px;
+}
+
+/*footer*/
+.navFooter {
+	background-color: #e1e1e1 !important; 
+	margin: 0;
+}
+
+.divFooter {
+	padding: 20px; 
+	color: #90919d;
+}
+
+/*page7*/
+.page7_hyperlink{
+	margin-left: 100px !important;
+}
+
+h2 .article1_header{
+	text-align: center !important;
+}
+/*page1*/
+#btnclearcache, .pRefresh{
+ cursor: pointer;
+}
+
+.addnewsbtn{
+	float: right;
+	padding-bottom: 100px;
+	/*margin-bottom: 30px;*/
+}
